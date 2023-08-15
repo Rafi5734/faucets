@@ -1,0 +1,81 @@
+*{
+    font-family: 'Shadows Into Light', cursive;
+font-family: 'Varela Round', sans-serif;
+}
+
+.basic_color{
+    color: #9b1fe9;
+}
+#dropdown-basic{
+    border: 1px solid #dddddd !important;
+    border-radius: 2px !important;
+}
+.normal_fontSize{
+    font-size: .9em;
+    color: #6d7380;
+}
+.form_fontSize{
+    font-size: .9em;
+    color: #9b1fe9;
+}
+.normal_borderRadius{
+    border: 1px solid #dddddd !important;
+    border-radius: 2px !important;
+}
+.wallet_btn{
+    border: 2px solid #9b1fe9 !important;
+    border-radius: 3px !important;
+    color: #9b1fe9;
+}
+
+.user_btn{
+    border-radius: 50% !important;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    
+}
+.form-control{
+    border-radius: 3px !important;
+}
+.form_btn{
+    border-radius: 3px !important;
+    border: none !important;
+    background-color: #9b1fe9 !important;
+}
+.nav-pills .nav-link{
+    background-color: #f5f7fd !important;
+    color: black !important;
+    font-weight: 300 !important;
+    font-size: .9em;
+    border-radius: 3px !important;
+}
+.nav-pills .nav-link.active{
+    background-color: blue !important;
+    color: white !important;
+    font-weight: 300 !important;
+    font-size: .9em;
+    border-radius: 3px !important;
+}
+.table_request{
+    overflow: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    
+    #dropdown-basic{
+        width: 100% !important;
+        margin-bottom: 10px !important;
+        margin-top: 15px !important;
+    }
+
+    .wallet_btn{
+        /* width: 98% !important; */
+        margin-bottom: 10px !important;
+        /* margin-top: 15px !important; */
+    }
+}
